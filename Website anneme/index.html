@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tunceroğlu Emlakçılık — Lüks Gayrimenkul</title>
+  <meta name="description" content="Tunceroğlu Emlakçılık — Turkey's premier luxury real estate agency. Villas, apartments, commercial properties." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-main">Tunceroğlu</span>
+        <span class="logo-sub">Emlakçılık</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-link">Ana Sayfa</a></li>
+        <li><a href="#about" class="nav-link">Hakkımda</a></li>
+        <li><a href="#portfolio" class="nav-link">Portföy</a></li>
+        <li><a href="#appointment" class="nav-link">Randevu</a></li>
+        <li><a href="#testimonials" class="nav-link">Referanslar</a></li>
+        <li><a href="#contact" class="nav-link">İletişim</a></li>
+        <!-- Language toggle -->
+        <li><button class="lang-btn" id="langToggle">EN / TR</button></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up" data-delay="0">Turkey · Worldwide</p>
+      <h1 class="hero-title reveal-up" data-delay="1">
+        <span>Tunceroğlu</span>
+        <em>Emlakçılık</em>
+      </h1>
+      <p class="hero-tagline reveal-up" data-delay="2">
+        Mükemmelliğin Her Detayda Hissedildiği Yer
+      </p>
+      <a href="#portfolio" class="btn-gold reveal-up" data-delay="3">Portföyü İncele</a>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Kaydır</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT ==================== -->
+  <section id="about">
+    <div class="section-container">
+      <div class="about-grid">
+
+        <!-- Left: Photo -->
+        <div class="about-photo-wrap reveal-left">
+          <img
+            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80"
+            alt="Tunceroğlu — Luxury Real Estate Agent"
+            class="about-photo"
+          />
+          <div class="about-photo-badge">
+            <span class="badge-num">15+</span>
+            <span class="badge-label">Yıllık Tecrübe</span>
+          </div>
+        </div>
+
+        <!-- Right: Bio -->
+        <div class="about-text reveal-right">
+          <p class="section-eyebrow">Hakkımda</p>
+          <h2 class="section-title">Güven ve Mükemmellik Üzerine Kurulu<br /><em>Bir Miras</em></h2>
+          <p class="about-bio">
+            Türkiye'nin en prestijli gayrimenkul pazarlarında 15 yılı aşkın süredir edindiğim tecrübe ile her işleme benzersiz bir uzmanlık katıyorum. Bodrum'un güneşin tadını çıkaran Ege villalarından, İstanbul Boğazı'nın simgesel yalılarına kadar uzanan portföyüm; gizlilik, hassasiyet ve olağanüstü sonuçlara olan bağlılığımın bir yansımasıdır.
+          </p>
+          <p class="about-bio">
+            İster ilk evini alan bir alıcı, ister deneyimli bir yatırımcı, isterse de Türkiye'de bir yaşam alanı arayan uluslararası bir müşteri olun, vizyonunuza özel üst düzey bir hizmet sunuyorum.
+          </p>
+
+          <!-- Stats row -->
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-num">350+</span>
+              <span class="stat-label">Satılan Mülk</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">₺2.4B</span>
+              <span class="stat-label">Toplam Hacim</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">98%</span>
+              <span class="stat-label">Müşteri Memnuniyeti</span>
+            </div>
+          </div>
+
+          <!-- Past projects -->
+          <div class="about-projects">
+            <p class="projects-label">Öne Çıkan Başarılar</p>
+            <div class="projects-list">
+              <div class="project-tag">Bosphorus Penthouse, İstanbul</div>
+              <div class="project-tag">Ege Villa Kompleksi, Bodrum</div>
+              <div class="project-tag">Tarihi Butik Otel, Antalya</div>
+              <div class="project-tag">Kapadokya Mağara Oteli Projesi</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== PORTFOLIO ==================== -->
+  <section id="portfolio">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">Portföyümüz</p>
+        <h2 class="section-title">Seçkin <em>Mülkler</em></h2>
+        <p class="section-subtitle">Türkiye ve ötesinde olağanüstü evler, yatırım varlıkları ve ticari alanlar.</p>
+      </div>
+
+      <!-- Filter tabs -->
+      <div class="portfolio-filters reveal-up" id="portfolioFilters">
+        <button class="filter-btn active" data-filter="all">Tümü</button>
+        <button class="filter-btn" data-filter="villa">Villa</button>
+        <button class="filter-btn" data-filter="apartment">Daire</button>
+        <button class="filter-btn" data-filter="commercial">Ticari</button>
+        <button class="filter-btn" data-filter="land">Arsa</button>
+      </div>
+
+      <!-- Property grid — populated by JS -->
+      <div class="property-grid" id="propertyGrid"></div>
+
+      <!-- ADD PROPERTY PANEL — frontend CMS -->
+      <div class="add-property-wrap">
+        <button class="btn-outline" id="toggleAddProperty">
+          <span class="btn-icon">＋</span> Yeni İlan Ekle
+        </button>
+
+        <div class="add-property-panel" id="addPropertyPanel" style="display:none;">
+          <h3 class="panel-title">Yeni Mülk Ekle</h3>
+          <form id="addPropertyForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label>İlan Başlığı *</label>
+                <input type="text" id="prop-title" placeholder="Örn: Boğaz Manzaralı Villa" required />
+              </div>
+              <div class="form-group">
+                <label>Türü *</label>
+                <select id="prop-type" required>
+                  <option value="">Seçiniz</option>
+                  <option value="villa">Villa</option>
+                  <option value="apartment">Daire</option>
+                  <option value="commercial">Ticari</option>
+                  <option value="land">Arsa</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Konum *</label>
+                <input type="text" id="prop-location" placeholder="Örn: Bodrum, Muğla" required />
+              </div>
+              <div class="form-group">
+                <label>Fiyat *</label>
+                <input type="text" id="prop-price" placeholder="Örn: ₺12,500,000" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Boyut (m²) *</label>
+                <input type="text" id="prop-size" placeholder="Örn: 320 m²" required />
+              </div>
+              <div class="form-group">
+                <label>Görsel URL (Link)</label>
+                <input type="url" id="prop-image" placeholder="https://resim-linki.com/..." />
+              </div>
+            </div>
+            <div class="form-group full-width">
+              <label>Kısa Açıklama *</label>
+              <textarea id="prop-desc" rows="3" placeholder="Mülkü kısaca açıklayın..." required></textarea>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn-gold">İlanı Ekle</button>
+              <button type="button" class="btn-ghost" id="cancelAdd">İptal</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== APPOINTMENT ==================== -->
+  <section id="appointment">
+    <div class="appointment-bg"></div>
+    <div class="appointment-overlay"></div>
+    <div class="section-container appointment-inner">
+      <div class="appointment-text reveal-up">
+        <p class="section-eyebrow light">Birebir Görüşme</p>
+        <h2 class="section-title light">Özel Randevu<br /><em>Oluşturun</em></h2>
+        <p class="appt-desc">
+          Seçeneklerinizi keşfetmek, hedeflerinizi konuşmak ve size tamamen özel, uzman tavsiyesi almak için benimle özel bir görüşme ayarlayın.
+        </p>
+        <ul class="appt-features">
+          <li>✦ Yüzyüze veya görüntülü arama</li>
+          <li>✦ Türkçe ve İngilizce dil seçeneği</li>
+          <li>✦ Gizlilik garantisi</li>
+        </ul>
+      </div>
+
+      <form class="appointment-form reveal-right" id="appointmentForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Ad Soyad *</label>
+            <input type="text" id="appt-name" placeholder="Adınız Soyadınız" required />
+          </div>
+          <div class="form-group">
+            <label>E-posta *</label>
+            <input type="email" id="appt-email" placeholder="ornek@email.com" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Telefon</label>
+            <input type="tel" id="appt-phone" placeholder="+90 (555) 000 0000" />
+          </div>
+          <div class="form-group">
+            <label>Tercih Edilen Tarih *</label>
+            <input type="datetime-local" id="appt-datetime" required />
+          </div>
+        </div>
+        <div class="form-group full-width">
+          <label>Mesajınız</label>
+          <textarea id="appt-message" rows="3" placeholder="Gayrimenkul hedeflerinizden bahsedin..."></textarea>
+        </div>
+        <button type="submit" class="btn-gold full-btn">Randevu Talep Et</button>
+        <div class="form-feedback" id="apptFeedback"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ==================== TESTIMONIALS ==================== -->
+  <section id="testimonials">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">Müşteri Yorumları</p>
+        <h2 class="section-title">Güvenin <em>Sesi</em></h2>
+      </div>
+
+      <div class="testimonials-slider reveal-up" id="testimonialsSlider">
+        <div class="testimonials-track" id="testimonialsTrack">
+          <!-- JS tarafından doldurulacak -->
+        </div>
+
+        <div class="slider-controls">
+          <button class="slider-btn" id="prevTest" aria-label="Önceki">&#8592;</button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-btn" id="nextTest" aria-label="Sonraki">&#8594;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT ==================== -->
+  <section id="contact">
+    <div class="section-container">
+      <div class="section-header reveal-up">
+        <p class="section-eyebrow">İletişim</p>
+        <h2 class="section-title">Bizimle <em>İletişime Geçin</em></h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal-left">
+          <div class="contact-detail">
+            <div class="contact-icon">📍</div>
+            <div>
+              <p class="contact-label">Ofis Adresi</p>
+              <p class="contact-value">Bağdat Caddesi No:42, Kadıköy<br />İstanbul, Türkiye 34726</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">📞</div>
+            <div>
+              <p class="contact-label">Telefon / WhatsApp</p>
+              <p class="contact-value"><a href="tel:+905550000000">+90 (555) 000 00 00</a></p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <p class="contact-label">E-posta</p>
+              <p class="contact-value"><a href="mailto:iletisim@tuncerogluemlak.com">iletisim@tuncerogluemlak.com</a></p>
+            </div>
+          </div>
+
+          <!-- Social -->
+          <div class="social-section">
+            <p class="contact-label">Instagram'da Takip Edin</p>
+            <a href="https://instagram.com/" target="_blank" rel="noopener" class="instagram-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              @tuncerogluemlak
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form reveal-right" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Ad Soyad *</label>
+              <input type="text" id="cnt-name" placeholder="Adınız Soyadınız" required />
+            </div>
+            <div class="form-group">
+              <label>E-posta *</label>
+              <input type="email" id="cnt-email" placeholder="ornek@email.com" required />
+            </div>
+          </div>
+          <div class="form-group full-width">
+            <label>Konu</label>
+            <input type="text" id="cnt-subject" placeholder="Gayrimenkul talebi, genel sorular..." />
+          </div>
+          <div class="form-group full-width">
+            <label>Mesajınız *</label>
+            <textarea id="cnt-message" rows="5" placeholder="Mesajınızı buraya yazın..." required></textarea>
+          </div>
+          <button type="submit" class="btn-gold full-btn">Mesajı Gönder</button>
+          <div class="form-feedback" id="contactFeedback"></div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo-main">Tunceroğlu</span>
+        <span class="footer-logo-sub">Emlakçılık</span>
+        <p class="footer-tagline">Mükemmel mülkler.<br />Mükemmel hizmet.</p>
+      </div>
+
+      <div class="footer-links">
+        <p class="footer-col-title">Menü</p>
+        <ul>
+          <li><a href="#hero">Ana Sayfa</a></li>
+          <li><a href="#about">Hakkımda</a></li>
+          <li><a href="#portfolio">Portföy</a></li>
+          <li><a href="#appointment">Randevu Al</a></li>
+          <li><a href="#testimonials">Referanslar</a></li>
+          <li><a href="#contact">İletişim</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <p class="footer-col-title">İletişim Bilgileri</p>
+        <ul>
+          <li>Bağdat Caddesi No:42, Kadıköy</li>
+          <li>İstanbul, Türkiye 34726</li>
+          <li><a href="tel:+905550000000">+90 (555) 000 00 00</a></li>
+          <li><a href="mailto:iletisim@tuncerogluemlak.com">iletisim@tuncerogluemlak.com</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="footerYear"></span> Tunceroğlu Emlakçılık. Tüm Hakları Saklıdır.</p>
+      <p class="footer-legal">Gizlilik Politikası · Kullanım Şartları</p>
+    </div>
+  </footer>
+
+  <!-- ==================== PROPERTY DETAIL MODAL ==================== -->
+  <div class="modal-overlay" id="propertyModal" style="display: none;">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+      <div class="modal-content" id="modalContent">
+        <!-- JS tarafından ilan detayı eklenecek -->
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
